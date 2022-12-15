@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>E-mobicity - Official Site</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Reset */
+    body,
+    html {
+      scroll-behavior: smooth;
+      behavior: smooth;
+      font-family: 'Intro', Arial, Helvetica, sans-serif;
+      line-height: 1;
+      font-size: 16px;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: border-box;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ol,
+    ul {
+      padding: 0;
+    }
+
+    ol,
+    ul {
+      padding-left: 20px;
+      line-height: 1.5;
+    }
+
+    img {
+      height: auto;
+    }
+
+    h1 {
+      font-size: 4.7rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    h3 {
+      font-size: 2rem;
+    }
+
+    h4 {
+      font-size: 1rem;
+    }
+
+    h5 {
+      font-size: 0.8rem;
+    }
+
+    h6 {
+      font-size: 0.6rem;
+    }
+
+    a {
+      text-decoration: none
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo" href="#"></div>
+      <ul class="header__menu">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#ChiSiamo">Chi Siamo</a></li>
+        <li><a href="#Prototipo">Prototipo</a></li>
+      </ul>
+      <div class="header__quick">
+        <a href="#Sostieni">Sostienici</a>
+        <div class="icon-hamburger">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="cover cov-home" id="Home">
+    <div class="block">
+      <h1>Prova i mezzi <span style="color:rgba(114,198,76,255);text-shadow: 2px 1px #000;">ecosostenibili</span>
+        di <br><span style="font-size:40px">e-mo<span
+            style="color:rgba(114,198,76,255);text-shadow: 2px 1px #000;">bici</span>ty</h1>
+      <div class="call mt-2"><a href="#">Provalo!</a></div>
+    </div>
+  </div>
+
+  <div class="container-grid" id="ChiSiamo">
+    <div class="grid">
+      <div class="col-50">
+        <h2 class="text-1 about" style="color:rgba(114,198,76,255);text-shadow: 1px 3px #000;">CHI SIAMO</h2>
+        <h3 class="text-3 about-sub">Classe 4IB, istituto Alessandro Volta di Lodi</h3>
+        <p class="text-4 about-par">Ciao a tutti, siamo la classe Quarta IB dell' Istituto<span class="scuola"
+            style="text-decoration: underline #72c64c; font-weight: 700;"> Alessandro Volta di Lodi</span>, che ha
+          deciso
+          di dare vita
+          a ciò in cui crede ovvero mettere fine all'inquinamento dovuto soprattutto da macchine a gasolio e benzina
+          proponendo così i propri mezzi E-mo<span style="font-weight: bold; color:#72c64c;">bici</span>ty.</p>
+      </div>
+      <div class="col-50">
+        <div class="cover mt-5 cov-special">
+          <div class="cover__content">
+            <a href="#" class="button mtp under">Prototipo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover cov-mail"  id="Sostieni"
+    style="background-image:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');">
+    <div class="cover__content">
+      <h1 class="input-title">Aiutaci a migliorare il mondo!</h1>
+      <h2 class="text-3 input-subtitle">Copia e inviaci una Mail</h2>
+      <input type="email" name="email" id="email" value="Emobicity4IB@gmail.com" disabled class="input-mail" id="area">
+    </div>
+  </div>
+
+  <footer class="footer" id="Contatti">
+    <div class="grid">
+      <div class="col-50">
+        <h3>E-mo<span style="color:#72c64c;">bici</span>ty</h3>
+        <p style="color:#ccc">Aiuta anche tu il tuo <span style="color:#72c64c;">pianeta</span>, non permettere che <br> venga inquinato e il modo più semplice per farlo <br> è usare i mezzi di
+          E-mo<span style="color:#72c64c;">bici</span>ty<span style="color:#72c64c;">.</span></p>
+      </div>
+      <div class="col-25">
+        <h3><span style="color:#72c64c;">So</span>cial<span style="color:#72c64c;">:</span></h3>
+        <ul>
+          <li><a href="https://www.instagram.com/emobicity.lodi/?igshid=YmMyMTA2M2Y%3D"><img class="icon-instagram" src="./icons/instagram.svg" alt="Instagram - link"></a></li>
+        </ul>
+      </div>
+      <div class="col-25">
+        <h3>Me<span style="color:#72c64c;">nu</span></h3>
+        <ul>
+          <li><a href="#Home" style="color:#ccc">Home</a></li>
+          <li><a href="#ChiSiamo" style="color:#ccc">Chi Siamo</a></li>
+          <li><a href="#Prototipo" style="color:#ccc">Prototipo</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script>
+    let item = document.querySelector('.icon-hamburger');
+    item.addEventListener("click", function () {
+      document.body.classList.toggle('menu-open');
+    });
+  </script>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
